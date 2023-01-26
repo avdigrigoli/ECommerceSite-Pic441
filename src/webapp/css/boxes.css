@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+
+.container-home {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.left {
+    width: 80%;
+    min-height: 500px;
+    background-color: #1F0D40;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+}
+.left h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.left p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+.left a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.right {
+    width: 110%;
+    max-height: 275px;
+    background-color: #f8c892;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #1F0D40;
+    margin-left: -275px;
+    margin-top: 250px;
+    font-size: 80%
+
+}
+.right h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.right p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+.right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.lefthome {
+    width: 150%;
+    min-height: 300px;
+    max-height: 300px;
+    background-color: #1F0D40;
+    display: flex;
+    padding: 30px;
+    color: #fdf4eb;
+    font-size: 500%
+}
+.lefthome h1 {
+    font-size: 50pt;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+
+.testheader {
+    position: relative;
+    z-index: 1;
+    color: #1F0D40;
+    display: table;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .container-home {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 20px;
+    }
+    .left {
+        width: 90%;
+        height: 400px;
+    }
+
+    .lefthome {
+        width: 90%;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .lefthome h1{
+        font-size: 45%;
+    }
+    .right {
+        width: 80%;
+        margin: 0;
+        margin-top: -90px;
+        font-size: 70%;
+    }
+}
+
+.testheader{
+    position: relative;
+    z-index: 1;
+    color: #1F0D40;
+    display: table;
+    margin: 0 auto;
+
+}
+
