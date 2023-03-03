@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class Utils {
 
-    private static final String jdbcURL = "jdbc:sqlserver://pic441.database.windows.net:1433;database=pic441;user=ant@pic441;password=December2900!;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+    private static final String jdbcURL = "jdbc:sqlserver://pic441.database.windows.net:1433;database=pic441;user=USERNAME;password=PASSWORD;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
     private static final String jdbcUsername = "root";
     private static final String jdbcPassword = "root";
 
